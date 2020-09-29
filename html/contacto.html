@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark navbar-toggleable-sm sticky-top">
+        <button class="navbar-toggler collapse" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" >
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>   
+  <!-- Brand -->
+          <a class="navbar-brand" href="#"><img title="Rusia 2018" src="http://www.balonazos.com/wp-content/uploads/2015/11/RUSIA2018.png" /></a>
+           
+          <div id="navbar" class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <!-- Links -->
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link active" href="/index.html"> Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"> Sede</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/html/partido.html"> Partidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"> Grupos A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"> Grupos B</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"> Grupos C</a>
+            </li>
+           
+        
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+               Grupos H
+              </a>
+              <div class="dropdown-menu" id="contenedor">
+                <a class="dropdown-item " href="#"> Polonia</a>
+                <a class="dropdown-item" href="#">Senegal</a>
+                <a class="dropdown-item" id="selh3" href="#">Colombia</a>
+                <a class="dropdown-item" href="#">Japón</a>
+              </div>
+          </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Contacto</a>
+                </li>
+              
+          </ul>
+        </div>
+  
+          
+        </nav>
+  
+  <br>
+
+
+    <form class="contact_form" action="#" id="contact_form" runat="server">
+        <div>
+        <ul>
+        <li>
+        <h2>Contactos</h2>
+        <span class="required_notification">* Datos requeridos</span>
+        </li>
+        <li>
+        <label for="name">Nombre:</label>
+        <input type="text" placeholder="Carlos Rosendo Gutierrez" required />
+        </li>
+        <li>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="nombre@algo.com" required />
+        <span class="form_hint">Formato correcto: "nombre@algo.com"</span>
+        </li>
+        <li>
+        <label for="website">Sitio web:</label>
+        <input type="url" name="website" placeholder="http://algo.com" required pattern="(http|https)://.+" />
+        <span class="form_hint">Formato correcto: "http://algo.com"</span>
+        </li>
+        <li>
+        <label for="message">Mensaje:</label>
+        <textarea name="message" cols="40" rows="6" required></textarea>
+        </li>
+        <li>
+        <button class="submit" type="submit">Enviar mensaje</button>
+        </li>
+        </ul>
+        </div>
+      </form>  
+<br>
+<br>
+<footer>
+  <p>Programación Aplicaciones Web - 2018</p>
+</footer>
+
+<script src="/js/datos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>     
+     
+
+</body>
+</html>
